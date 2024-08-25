@@ -1,0 +1,10 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "description": "Click here [here](https://attacker.com).",
+        "version": "1.0.0",
+        "title": "HackerOne"
+    },
+    "paths": {
+    }
+}
