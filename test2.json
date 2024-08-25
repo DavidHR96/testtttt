@@ -1,0 +1,10 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "description": "This is the Riot OpenAPI documentation viewer. <br> Point this viewer to your service by typing the address of your `openapi.json` or `openapi.yaml` endpoint above or by adding it as an `?url=` query parameter. If you're looking for the OpenAPI editor click [here](javascript:alert(1)). For questions about this site or to report problems please contact flight-pp-rpg-rg@riotgames.com",
+        "version": "1.0.0",
+        "title": "OpenAPI Viewer"
+    },
+    "paths": {
+    }
+}
