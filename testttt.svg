@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML inside SVG</title>
+</head>
+<body>
+  <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" style="border: 1px solid black;">
+    <!-- A simple rectangle -->
+    <rect width="300" height="200" fill="lightblue" />
+
+    <!-- Embed HTML using foreignObject -->
+    <foreignObject x="50" y="50" width="200" height="100">
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p style="font-size: 18px; color: red;">This is an HTML paragraph inside an SVG!</p>
+        <img src="https://via.placeholder.com/100" alt="Image inside SVG" />
+      </body>
+    </foreignObject>
+  </svg>
+</body>
+</html>
