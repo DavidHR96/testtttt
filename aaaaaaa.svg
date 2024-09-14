@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  
+  <!-- Background rectangle -->
+  <rect width="400" height="200" fill="lightgray"/>
+
+  <!-- Heading-style text -->
+  <text x="50" y="50" font-size="30" font-weight="bold" fill="black">This is an H1-like text</text>
+  
+  <!-- Paragraph-style text -->
+  <text x="50" y="100" font-size="16" fill="black">Here is a simple text inside the SVG.</text>
+
+  <!-- Hyperlink (anchor) -->
+  <a xlink:href="https://example.com" target="_blank">
+    <text x="50" y="150" font-size="16" fill="blue" text-decoration="underline">
+      Click here to visit example.com
+    </text>
+  </a>
+
+</svg>
